@@ -7,5 +7,8 @@ class HelloWorld {
         console.log("Safyan Iqbal")
 
     }
+    showgreet() {
+        console.log("Safyan Iqbal");
+    }
 
 }
