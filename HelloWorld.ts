@@ -1,6 +1,11 @@
 class HelloWorld {
 
-    constructor(params) {
+    constructor(parmas) {
+    }
+
+    greet() {
+        console.log("Safyan Iqbal")
 
     }
+
 }
