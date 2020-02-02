@@ -1,14 +1,14 @@
 class HelloWorld {
 
-    constructor(parmas) {
-    }
-
-    greet() {
-        console.log("Safyan Iqbal")
+    constructor(public firstName: string, public lastName: string) {
 
     }
-    showgreet() {
-        console.log("Safyan Iqbal");
+
+    sayHello() {
+        console.log('Hello World' + ' My name is ' + this.firstName + '' + this.lastName);
     }
 
 }
+
+const myHelloClassInstance = new HelloWorld(' Safyan ', ' Iqbal ');
+myHelloClassInstance.sayHello();
