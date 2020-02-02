@@ -1,4 +1,6 @@
 class HelloWorld {
 
+    constructor(params) {
 
+    }
 }
