@@ -5,10 +5,10 @@ class HelloWorld {
     }
 
     sayHello() {
-        console.log('Hello World' + ' My name is ' + this.firstName + '' + this.lastName + '.');
+        console.log('Hello World' + ' My name is ' + this.firstName + ' ' + this.lastName + '.');
     }
 
 }
 
-const myHelloClassInstance = new HelloWorld(' Safyan ', ' Iqbal ');
+const myHelloClassInstance = new HelloWorld('Safyan', 'Iqbal');
 myHelloClassInstance.sayHello();

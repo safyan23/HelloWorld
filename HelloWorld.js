@@ -4,9 +4,9 @@ var HelloWorld = (function () {
         this.lastName = lastName;
     }
     HelloWorld.prototype.sayHello = function () {
-        console.log('Hello World' + ' My name is ' + this.firstName + '' + this.lastName);
+        console.log('Hello World' + ' My name is ' + this.firstName + ' ' + this.lastName + '.');
     };
     return HelloWorld;
 })();
-var myHelloClassInstance = new HelloWorld(' Safyan ', ' Iqbal ');
+var myHelloClassInstance = new HelloWorld('Safyan', 'Iqbal');
 myHelloClassInstance.sayHello();
